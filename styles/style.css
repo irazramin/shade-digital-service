@@ -1,3 +1,151 @@
-body{
-    
+body {
+    font-family: 'Karla',
+        sans-serif;
+    margin: 0;
+}
+
+/* =============================
+    common and utilities classes
+================================ */
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+
+/* =============================
+         header section
+================================ */
+
+header {
+    background: #E3EEF8;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 60px;
+}
+
+.nav-items ul li {
+    margin-right: 30px;
+}
+
+.nav-items ul li a {
+    text-decoration: none;
+    color: #1F1F1F;
+
+}
+
+.get-started {
+    width: 135px;
+    height: 40px;
+    background: transparent;
+    color: #258AFF;
+    font-size: 16px;
+    border: 1px solid #258AFF;
+    border-radius: 5px;
+   /* margin-bottom: 30px; */
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-content h6 {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.header-content .header-title {
+    font-size: 70px;
+    margin-top: 25px;
+    width: 615px;
+    margin-bottom: 0;
+}
+
+.header-content .header-desc {
+    font-size: 20px;
+    font-weight: 400;
+    width: 555px;
+    margin-top: 20px;
+}
+
+.header-form {
+    margin-top: 30px;
+    display: block;
+}
+
+.header-form input {
+    border: 0;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.header-form .btn-orange {
+    padding: 12px 30px;
+    border: 0;
+    background-color: #FC593B;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.header-content span {
+    color: #878B90;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.header-col-items {
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.col-content {
+    margin-left: 20px;
+}
+
+.col-icon {
+    font-size: 36px;
+    color: #258AFF;
+}
+
+.col-content h4 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.col-content p {
+    font-size: 17px;
+    color: #666666;
 }
