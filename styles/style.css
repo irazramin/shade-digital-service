@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Karla',
         sans-serif;
@@ -14,6 +18,30 @@ body {
 
 }
 
+.btn {
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.large-title {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 16px;
+}
 
 /* =============================
          header section
@@ -60,7 +88,7 @@ header {
     font-size: 16px;
     border: 1px solid #258AFF;
     border-radius: 5px;
-   /* margin-bottom: 30px; */
+    /* margin-bottom: 30px; */
 }
 
 .header-content {
@@ -103,12 +131,7 @@ header {
 }
 
 .header-form .btn-orange {
-    padding: 12px 30px;
-    border: 0;
     background-color: #FC593B;
-    border-radius: 5px;
-    font-size: 18px;
-    color: #ffffff;
     margin-left: 10px;
 }
 
@@ -148,4 +171,306 @@ header {
 .col-content p {
     font-size: 17px;
     color: #666666;
+}
+
+
+/* =============================
+    presentation design section
+================================ */
+.presentaion-design-section {
+    padding: 40px 0;
+    background: #258AFF;
+    color: #ffffff;
+}
+
+.presentaion-design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.btn-white {
+    color: #258AFF;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+/* ====================================
+    presentation design section part 2
+======================================= */
+
+.presentation-design-part-2-section {
+    background: #E3EEF8;
+}
+
+.presentation-design-part-2 {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-design-part-2 h4 {
+    color: #258AFF;
+}
+
+.presentation-design-part-2 .desc {
+    margin-left: 0;
+}
+
+.presentation-design-part-2-hero-bg {
+    height: 500px;
+}
+
+.presentation-design-part-2-col-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.presentation-design-part-2-col-item .col-icon i {
+    font-size: 28px;
+    background-color: #258AFF;
+    color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-design-part-2-hero-bg {
+    height: 100%;
+}
+
+.presentation-design-part-2-underline {
+    border: 1px solid #FFFFFF;
+    margin-bottom: 0;
+}
+
+
+/* ==========================
+      author reviews          
+============================= */
+
+.review-section{
+ background: #E3EEF8;
+ padding: 50px 0;
+}
+
+.customer-reviews-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.customer-reviews-content .small-title{
+    color: #258AFF;
+}
+
+.customer-reviews-content .desc{
+    margin-left: 0;
+}
+
+.customer-reviews{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-gap: 10px;
+}
+
+.review{
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 100%;
+}
+.review-text{
+    font-size: 16px;
+}
+
+.review-author {
+    display: flex;
+}
+.author-info{
+    margin-left: 10px;
+}
+
+.author-name{
+    margin: 0;
+}
+
+.sponsor img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* ==========================
+     package section         
+============================= */
+
+.section-package{
+    background-image: url(/img/package_bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.section-package .small-title{
+    margin-top: 0;
+}
+
+.packages{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.package{
+    width: 300px;
+    background-color: #FFFFFF;
+    color: black;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align:start;
+    position: relative;
+}
+.package:first-child{
+    background: #2B405A;
+    color: #FFFFFF;
+}
+
+.package-type{
+    text-transform: uppercase;
+}
+
+.package-price{
+    font-size: 50px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.package-price small{
+    font-size: 17px;
+}
+
+.package-desc{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.package-benefit{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 36px;
+}
+
+.package-benefit li{
+    margin-top: 20px;
+}
+
+.package:first-child li:nth-child(3),
+.package:first-child li:nth-child(4) {
+    color: #878B90;
+}
+
+.set-trial{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+
+.package:first-child .set-trial{
+    background-color: #258AFF;
+}
+.package:last-child .set-trial{
+    background-color: #FC593B;
+}
+.package-credit{
+    font-size: 14px;
+    color: #878B90;
+    margin-top: 10px;
+    display: block;
+}
+
+.popular{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 4px 7px;
+    background-color: #4EAB08;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/* ==========================
+           footer        
+============================= */
+
+
+.footer{
+     background: #E3EEF8;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:100px 0 ;
+}
+
+
+.footer-content p{
+    font-size: 16px;
+    width: 320px;
+}
+.footer-info{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footer-info h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.footer-info ul li{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.footer-content i{
+margin: 40px 10px;
+}
+@media only screen and (max-width:668px) {
+    .container {
+        width: 100%;
+
+    }
 }
